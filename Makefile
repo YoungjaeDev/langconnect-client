@@ -17,7 +17,7 @@ up:
 	@echo "📌 Access points:"
 	@echo "   - API Server: http://localhost:8080"
 	@echo "   - API Docs: http://localhost:8080/docs"
-	@echo "   - Next.js UI: http://localhost:3000"
+	@echo "   - Next.js UI: http://localhost:4000"
 	@echo "   - PostgreSQL: localhost:5432"
 
 down:
