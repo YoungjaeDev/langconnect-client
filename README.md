@@ -173,7 +173,7 @@ make down
    ```
 
 2. **Access the services**
-   - 🎨 **Frontend**: http://localhost:3000
+   - 🎨 **Frontend**: http://localhost:4000
    - 📚 **API Documentation**: http://localhost:8080/docs
    - 🔍 **Health Check**: http://localhost:8080/health
 
@@ -310,7 +310,7 @@ In the Inspector:
 | `SUPABASE_URL` | Supabase project URL | Yes |
 | `SUPABASE_KEY` | Supabase anon public key | Yes |
 | `NEXTAUTH_SECRET` | NextAuth.js secret key | Yes |
-| `NEXTAUTH_URL` | NextAuth URL (default: http://localhost:3000) | Yes |
+| `NEXTAUTH_URL` | NextAuth URL (default: http://localhost:4000) | Yes |
 | `NEXT_PUBLIC_API_URL` | Public API URL for frontend | Yes |
 | `POSTGRES_HOST` | PostgreSQL host (default: postgres) | No |
 | `POSTGRES_PORT` | PostgreSQL port (default: 5432) | No |
