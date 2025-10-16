@@ -32,7 +32,7 @@
   - [Running the Application](#running-the-application)
 - [MCP Integration](#mcp-integration)
 - [Environment Variables](#environment-variables)
-- [API Documentation](#api-documentation)
+- [Documentation](#documentation)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -319,6 +319,16 @@ In the Inspector:
 | `POSTGRES_DB` | PostgreSQL database name | No |
 | `SSE_PORT` | MCP SSE server port (default: 8765) | No |
 
+## 📚 Documentation
+
+Comprehensive guides for setup and deployment:
+
+- [Supabase Deployment Guide](./docs/supabase-deployment.md) - Complete guide for setting up Supabase project, environment variables, and production deployment
+- [MCP WSL Setup Guide](./docs/mcp-wsl-setup.md) - Detailed instructions for configuring MCP servers in WSL environment with Windows Claude Desktop
+- [Authentication Guide](./Auth.md) - In-depth documentation on JWT authentication, token refresh, and security best practices
+- [YouTube Tutorial Script](./docs/youtube-script.md) - Step-by-step video tutorial content covering end-to-end setup
+
+For API reference, visit the interactive documentation at http://localhost:8080/docs when running the application.
 
 ## 👥 Contributors
 

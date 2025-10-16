@@ -121,6 +121,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env.local
+.env.production
 .envrc
 .venv*
 venv*
@@ -165,3 +167,4 @@ virtualenv/
 
 # MCP configuration with sensitive data
 mcp/mcp_config.json
+mcpserver/mcp_config.json
