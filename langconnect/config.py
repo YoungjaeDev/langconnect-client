@@ -19,7 +19,7 @@ def get_embeddings() -> Embeddings:
     """Get the embeddings instance based on the environment."""
     from langchain_openai import OpenAIEmbeddings
 
-    return OpenAIEmbeddings(model="text-embedding-3-small")
+    return OpenAIEmbeddings(model="text-embedding-3-large")
 
 
 DEFAULT_EMBEDDINGS = get_embeddings()
